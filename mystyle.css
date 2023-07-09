@@ -1,0 +1,31 @@
+ul {
+  font-family: QTMilitary ;
+  src:url('/Fonts/'QTMilitary.otf);
+  font-size: 35px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+li {
+  float: left;
+  width: 20%;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: wavy;
+}
+
+li a:hover:not(.active) {
+  background-color: #B4D6D3;
+}
+
+.active {
+  background-color: #AA78A6;
+}
